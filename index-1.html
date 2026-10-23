@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RD Construction and Infra Pvt Ltd</title>
+<meta name="description" content="Connect with RD Construction and Infra Pvt Ltd.">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="theme-color" content="#0F2342">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy-900: #0A1A33;
+    --navy-800: #0F2342;
+    --navy-700: #16305A;
+    --gold-500: #C9A24B;
+    --gold-300: #E3C885;
+    --ink-100: #F4F1E8;
+    --ink-300: #B9C3D4;
+    --radius: 14px;
+    --head: "Barlow Semi Condensed", "Arial Narrow", system-ui, sans-serif;
+    --body: "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    font-family: var(--body);
+    color: var(--ink-100);
+    background-color: var(--navy-800);
+    /* blueprint grid, kept quiet */
+    background-image:
+      linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+    background-size: 32px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: max(24px, env(safe-area-inset-top)) 20px max(24px, env(safe-area-inset-bottom));
+  }
+
+  .shell { width: 100%; max-width: 460px; }
+
+  /* ---------- link plates ---------- */
+  .links { list-style: none; display: grid; gap: 12px; }
+  .plate {
+    display: flex; align-items: center; gap: 16px;
+    padding: 14px 16px;
+    min-height: 72px;
+    text-decoration: none; color: inherit;
+    background: var(--navy-700);
+    border: 1px solid rgba(201,162,75,.38);
+    border-radius: var(--radius);
+    position: relative;
+    transition: background-color .18s ease, border-color .18s ease, transform .18s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .plate::before {
+    content: ""; position: absolute; left: 0; top: 14px; bottom: 14px; width: 4px;
+    background: var(--gold-500); border-radius: 0 3px 3px 0;
+    transform: scaleY(.45); transition: transform .18s ease;
+  }
+  .plate:hover, .plate:focus-visible { background: #1C3B6D; border-color: var(--gold-500); transform: translateY(-1px); }
+  .plate:hover::before, .plate:focus-visible::before { transform: scaleY(1); }
+  .plate:active { transform: translateY(0); }
+  .plate:focus-visible { outline: 3px solid var(--gold-300); outline-offset: 3px; }
+
+  .icon {
+    flex: none; width: 46px; height: 46px; border-radius: 12px;
+    background: var(--gold-500); color: var(--navy-900);
+    display: grid; place-items: center;
+  }
+  .icon svg { width: 24px; height: 24px; display: block; }
+  .text { min-width: 0; }
+  .name { display: block; font-family: var(--head); font-weight: 600; font-size: 20px; line-height: 1.15; }
+  .sub  { display: block; margin-top: 3px; font-size: 14px; color: var(--ink-300); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+
+  /* ---------- laptop / large screens ---------- */
+  @media (min-width: 900px) {
+    .shell { max-width: 520px; }
+    .plate { min-height: 84px; padding: 16px 22px; }
+    .name { font-size: 22px; }
+    .sub { font-size: 15px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .plate, .plate::before { transition: none; }
+  }
+</style>
+</head>
+<body>
+  <main class="shell">
+    <ul class="links">
+      <li>
+        <a class="plate" href="https://www.instagram.com/official.rdconstructions" target="_blank" rel="noopener noreferrer">
+          <span class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>
+          </span>
+          <span class="text"><span class="name">Instagram</span><span class="sub">@official.rdconstructions</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="plate" href="https://www.facebook.com/share/1S5Tu4VgqV/" target="_blank" rel="noopener noreferrer">
+          <span class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.6 21v-8h2.7l.5-3.2h-3.2V7.9c0-.9.4-1.7 1.8-1.7h1.5V3.4c-.3 0-1.3-.2-2.4-.2-2.6 0-4.3 1.6-4.3 4.4v2.2H7.5V13h2.7v8z"/></svg>
+          </span>
+          <span class="text"><span class="name">Facebook</span><span class="sub">Our official page</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="plate" href="https://www.linkedin.com/company/contact-rdconstructions/" target="_blank" rel="noopener noreferrer">
+          <span class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><rect x="3.2" y="9" width="3.8" height="11.5" rx=".6"/><circle cx="5.1" cy="5" r="2.2"/><path d="M10 9h3.6v1.6c.6-1.1 1.9-1.9 3.6-1.9 3.1 0 3.8 2 3.8 4.7v7.1h-3.8v-6.3c0-1.5-.3-2.5-1.7-2.5-1.5 0-1.9 1.1-1.9 2.6v6.2H10z"/></svg>
+          </span>
+          <span class="text"><span class="name">LinkedIn</span><span class="sub">Company page</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="plate" href="https://rdconstructions.site.je" target="_blank" rel="noopener noreferrer">
+          <span class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.3 6.4-3.9 9c-2.6-2.6-3.9-5.6-3.9-9S9.4 5.6 12 3z"/></svg>
+          </span>
+          <span class="text"><span class="name">Website</span><span class="sub">rdconstructions.site.je</span></span>
+        </a>
+      </li>
+    </ul>
+
+  </main>
+</body>
+</html>
